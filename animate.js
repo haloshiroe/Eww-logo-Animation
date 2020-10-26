@@ -4,7 +4,16 @@ anime({
     targets: '.barseg',
     d:wavedef,
     d:waveframe2,
+    easing: 'easeInOutSine',
+    duration: 1000,
+    direction: 'alternate',
+    loop: true
+  });
+  anime({
+    targets: '.toggleSw',
+    translateX: 60,
     easing: 'easeInOutQuad',
+    delay: 5000,
     duration: 1000,
     direction: 'alternate',
     loop: true
